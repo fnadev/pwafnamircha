@@ -1,0 +1,79 @@
+{
+  "name": "#ProgramadorFitness",
+  "short_name": "#ProgramadorFitness",
+  "description": "Bienvenid@s a #ProgramadorFitness, serie de videos, donde te daré consejos para llevar una vida saludable y evitar el sedentarismo. Recuerda... mente sana en cuerpo sano :)",
+  "background_color": "#2B2B2B",
+  "theme_color": "#F0DB4F",
+  "orientation": "portrait",
+  "display": "standalone", ***este es el valor para que no se muestren los elementos de la barra de navegacion
+  "start_url": "./?utm_source=web_app_manifest", **estandar para indicarle al mobile que es una aplicacion web con su manifiesto, puede llevar la extension por ekempo como "./index.html?
+  "scope": "./", "esto significa la carpeta donde se esta desplegando la aplicacion, es decir la carpata donde esta el "manifest" y tods las subcarpetas, y si coloco solo "/" indico que estoy en la raiz de todo el servidor y quiero que se carguen todos los elementos de la raiz , 
+  "lang": "es-MX",
+
+  ***esta es la configuracion para capturas de pantallas, solicitada ahora en los manifestos, es una captura de presentacion sobre como se vera la a´licacion, en mobile y es desktop, una vista previa
+  "screenshots": [
+    {
+      "src": "./img/Programadorfirnnesdesktop.png",
+      "sizes": "1914x1032",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "./img/Programadorfirnnesmobile.PNG",
+      "sizes": "496x875",
+      "type": "image/png",
+      "form_factor": "narrow" **** esta es la especificacion de la captura de pantalla para dispositivos moviles
+    }
+  ],
+  "icons": [
+    {
+      "src": "./img/icon_1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/icon_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/icon_384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/icon_256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/icon_192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/icon_128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/icon_96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/icon_64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/icon_32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/favicon.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+}

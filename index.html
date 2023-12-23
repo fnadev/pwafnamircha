@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>#ProgramadorFitness</title>
+  <meta name="description" content="Bienvenid@s a #ProgramadorFitness, serie de videos, donde te daré consejos para llevar una vida saludable y evitar el sedentarismo. Recuerda... mente sana en cuerpo sano :)">
+ <!-- color de barra de navegacion  -->
+  <meta name="theme-color" content="#F0DB4F">
+ <!-- metaetiquetas para indicarle al navegador que el sitio web es amigable en mobile -->
+  <meta name="MobileOptimized" content="width">
+  <meta name="HandheldFriendly" content="true">
+  <!-- metaetiquetas para "ipad, iphone" -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- link para favicon de la barra de navegacion -->
+  <link rel="shortcut icon" type="image/png" href="./img/ProgramadorFitness.png">
+  <link rel="apple-touch-icon" href="./ProgramadorFitness.png">
+
+  <!-- etiqueta de icono central de la aplicacion 
+  Cuando un usuario abre tu aplicación web desde la pantalla de inicio en un dispositivo iOS, iOS mostrará brevemente esta imagen de inicio mientras tu aplicación web se carga. Esto puede proporcionar una experiencia más fluida y nativa para el usuario, ya que es similar a la pantalla de carga que se muestra cuando se inician las aplicaciones nativas de iOS.
+  -->
+  <link rel="apple-touch-startup-image" href="./ProgramadorFitness.png">
+
+  <!-- El archivo `manifest.json` es un archivo en formato JSON que proporciona información importante sobre una aplicación web a un navegador. Este archivo es parte de la especificación de las Aplicaciones Web Progresivas (PWA, por sus siglas en inglés), que son aplicaciones web que pueden instalarse en el dispositivo de un usuario y funcionar offline.
+
+El archivo `manifest.json` puede incluir detalles como:
+
+- **name**: El nombre de la aplicación.
+- **short_name**: Una versión corta del nombre de la aplicación.
+- **description**: Una descripción de la aplicación.
+- **icons**: Un conjunto de imágenes que pueden ser utilizadas como iconos de la aplicación en diferentes contextos.
+- **start_url**: La URL que se debe abrir cuando se lanza la aplicación.
+- **display**: Cómo se debe mostrar la aplicación (por ejemplo, a pantalla completa, como una aplicación independiente, etc.).
+- **background_color** y **theme_color**: Colores para la pantalla de inicio y la barra de tareas de la aplicación.
+- **orientation**: La orientación preferida para la aplicación (por ejemplo, retrato, paisaje, etc.).
+
+Estos son solo algunos ejemplos de lo que puede incluirse en un archivo `manifest.json`. Al proporcionar este archivo, puedes controlar cómo se ve y se comporta tu aplicación web cuando se instala en un dispositivo, proporcionando una experiencia más parecida a la de una aplicación nativa. En tu código, veo que tienes `<link rel="manifest" href="./manifest.json">`, lo que indica que tu aplicación web tiene un archivo `manifest.json` en el mismo directorio que tu archivo HTML. -->
+  <link rel="manifest" href="./manifest.json">
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header class="Header">
+    <h1>#ProgramadorFitness</h1>
+    <img src="./img/ProgramadorFitness.png" alt="#ProgramadorFitness">
+    <p>
+      Bienvenid@s a #ProgramadorFitness, serie de videos, donde te daré consejos para llevar una vida saludable y evitar el sedentarismo.
+      Recuerda... mente sana en cuerpo sano :)
+    </p>
+    <nav>
+      <a href="https://www.youtube.com/playlist?list=PLvq-jIkSeTUbJFWQx8gcy1MK0lTLrdLR9" target="_blank" title="YouTube">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://facebook.com/programadorfitness" target="_blank" title="Facebook">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://www.instagram.com/explore/tags/ProgramadorFitness/" target="_blank" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </nav>
+  </header>
+  <main class="Main">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9oQIylJ-JpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </main>
+  <script src="./script.js"></script>
+</body>
+
+</html>
